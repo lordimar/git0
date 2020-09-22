@@ -1,4 +1,25 @@
-body
-{
-    color: blue;
+h1 {
+  text-align: center;
+  color: blue;
+  text-align: left;
+}
+h2 {
+  font-family: Trattatello, fantasy;
+}
+body {
+  color: black;
+  font-size: 110%;
+  text-align: center;
+}
+h5 {
+  text-align: right;
+  font-size: 260%;
+}
+h6 {
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  font-size: 10px;
+  color: blue;
+  font-style: oblique;
 }
