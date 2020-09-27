@@ -4,8 +4,6 @@
     background-color: rgb(0, 0, 0);
     position:fixed;
   top: 0;
-  
-    
     padding: 0px 0px 17px 1020px;
     font-size: 40px;
  width: 100%;
@@ -19,15 +17,34 @@ a{
   color: rgb(255, 255, 255) !important;
 }
 #welcome-section{ 
-  padding: 155px; 
+  padding: 200px 0px 0 10px; 
   height:100vh;
   text-align: center;
-  font-size: 40px;
-  background-image: url("https://picjumbo.com/wp-content/uploads/D0101261-2210x1473.jpg");
+  font-size: 45px;
+  background-image: url("https://picjumbo.com/wp-content/uploads/white-marble-stone-background-texture-pattern_free_stock_photos_picjumbo_marble_free_stock_photos_picjumbo_com-2210x1473.jpg");
+  background-size: 100% 100%;
+  line-height: 0.5 ;
+}
+#about{
+  padding-top: 370px;
+  text-align: left;
+  font-size: 30px;
 }
 #projects{
+  font-size: 50px;
   background-color: rgb(7, 7, 7);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
 }
+.thumb img {
+  border: 2px solid #ffffff; /* Рамка вокруг фотографии */
+  padding: 15px; /* Расстояние от картинки до рамки */
+  background: #666; /* Цвет фона */
+  margin-right: 10px; /* Отступ справа */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+.thumb{  text-align: center;}
 #contact{
   background-color: rgb(185, 185, 185);
 }
