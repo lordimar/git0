@@ -13,7 +13,7 @@ body {
 
 span {
   display: inline;
-  background-color:#000000fb;
+  /* background-color:#000000fb; */
   box-shadow: -5px 0 0 #ffffff, 5px 0 0#ffffff;
   padding: 0;
   color: #000000;
