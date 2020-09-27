@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.topnav {
+    background-color: rgb(90, 86, 86);
+    position:fixed;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+.topnav a {
+    float: right ;
+    color: #ffae00;
+    text-align: center;
+    padding: 1px 30px;
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+}
+#form{
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 160%;
+}
+h2{
+    text-align: left;
+}
+@media screen
+{
+  
+}
+table.text  {
+    width:  100%; /* Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+   }
+   table.text td {
+    width: 50%; /* Ширина ячеек */
+    /* vertical-align: top; Выравнивание по верхнему краю */
+   }
+   td.rightcol { /* Правая ячейка */ 
+    text-align: right;
+    } /* Выравнивание по правому краю */
+    td.lefttcol { /* Правая ячейка */ 
+        text-align: left;
+        } /* Выравнивание по правому краю */
+
+        #other{
+            padding: 50px 40px;
+            text-align: left;
+            font-size: 20px;
+        }
+        .thumb img {
+            border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+            padding: 15px; /* Расстояние от картинки до рамки */
+            background: #666; /* Цвет фона */
+            margin-right: 10px; /* Отступ справа */
+            margin-bottom: 10px; /* Отступ снизу */
+        }
+        .thumb{  text-align: center;}
+
+        main{ 
+            max-width: 1000px;
+            margin: 0 auto 100px auto;
+        }
+
+        #youtube_video{
+            text-align: center;
+        }
+        #info{
+            background-color: rgb(90, 86, 86);
+            padding: 1px;
+            font-size: 35px;
+            word-spacing: 40px;
+            text-align: center;
+            color: #000 !important;
+            line-height: 0.2;
+        }
+        a{
+             color:#000000; text-decoration:none;
+            }

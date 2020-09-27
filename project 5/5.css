@@ -1,0 +1,37 @@
+
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+  top: 0;
+  
+    
+    padding: 0px 0px 17px 1020px;
+    font-size: 40px;
+ width: 100%;
+}
+.text{
+  
+  word-spacing: 20px;
+}
+
+a{
+  color: rgb(255, 255, 255) !important;
+}
+#welcome-section{ 
+  padding: 155px; 
+  height:100vh;
+  text-align: center;
+  font-size: 40px;
+  background-image: url("https://picjumbo.com/wp-content/uploads/D0101261-2210x1473.jpg");
+}
+#projects{
+  background-color: rgb(7, 7, 7);
+}
+#contact{
+  background-color: rgb(185, 185, 185);
+}
+@media screen
+{
+  
+}

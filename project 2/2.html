@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="2.css" />
+  <h1 id="title">Tolkien Society</h1>
+  <p id="description">Thank you for taking the time to help our community</p>
+</head>
+
+<body>
+  <form id="survey-form">
+    
+    <div>
+      <span>
+      <label id="name-label" for="name"> name
+        <input id="name" type="text" name="name" placeholder="Please,enter your name" required />
+      </label>
+      <br>
+      <label id="email-label" for="email"> email
+        <input id="email" type="email" name="email" placeholder="Please,enter your email" required /> 
+        <br>
+      </label> 
+      <label id="number-label" for="number">age
+
+        <input id="number" type="number" name="age" min="0" max="150" placeholder="Please,enter your age" required />
+        <br>
+      </label>
+    
+    </div>
+  
+    <div>
+<span>
+      <h3> From which book did you start your acquaintance with Legendarium </h3>
+      <h5>
+         
+        <select id="dropdown" name="awareness" class="form-control" required>
+         
+          <option disabled></option>
+          <option value="t1" selected> The Lord of the Rings</option>
+          <option value="t2">The Silmarillion</option>
+          <option value="t3">Unfinished Tales</option>
+          <option value="t4">The Children of Húrin</option>
+          <option value="t5">he History of Middle-earth</option>
+          <option value="t5">The Hobbit</option>
+       
+        </select>
+         
+      </h5>
+    
+    
+      <h3>Do you like the writing technique of this novel?</h3>
+      
+      <label><input type="radio" name="emotions" value=" don`t like" disabled> i don`t like
+        it</label>
+      <label><input type="radio" name="emotions" value="I`ve seen worse" disabled>
+        I`ve seen worse</label>
+      <label><input type="radio" name="emotions" value="good"> this seems to be all
+        rght</label>
+      <label><input type="radio" name="emotions" value="it`s great"> it`s great!</label>
+      <label><input type="radio" name="emotions" value="Terrific"> Terrific </label>
+    
+
+    
+      <h3>Your favorite characters of this story</h3>
+  
+      <label><input id="loving" type="checkbox" name="hero" value="loving"> Sauron</label>
+      <label><input id="lazy" type="checkbox" name="hero" value="lazy"> Gandalf</label>
+      <label><input id="energetic" type="checkbox" name="personality" value="energetic">
+        Galadriel</label>
+      <label><input id="loving" type="checkbox" name="hero" value="loving"> Aragorn</label>
+      <label><input id="lazy" type="checkbox" name="personality" value="lazy"> Legolas</label>
+      <label><input id="energetic" type="checkbox" name="personality" value="energetic">Gollum</label>
+      <label><input id="loving" type="checkbox" name="hero" value="loving"> Frodo</label>
+      <label><input id="lazy" type="checkbox" name="hero" value="lazy"> Arwen</label>
+      <label><input id="energetic" type="checkbox" name="hero" value="energetic"> Bilbo Bolsón </label>
+    </span>
+    </div>
+
+    <h3> let`s Talk? </h3>
+   <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here...">
+
+    </textarea>
+  
+    <div>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+
+</html>
+</label>
+</form>
+</body>
+
+</html>

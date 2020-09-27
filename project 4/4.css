@@ -1,0 +1,40 @@
+@media screen, print { 
+
+ }
+
+header
+{
+    font-size: 180%;
+    text-align: center;
+}
+    body{
+    background-color: rgb(211, 211, 211);
+    padding: 0 30px 10px 370px;
+}
+
+#navbar {
+    background-color: rgb(214, 214, 214);
+    position:fixed;
+    height: 100%;
+    top: 10px;
+    left: 0px;
+    padding: 0 5px 10px 1px;
+
+}
+
+a{
+    color: #000 !important;
+    font-size: 160%;
+}
+
+main{
+    font-size: 130%;
+}
+
+h6{
+    font-size: 105%;
+}
+
+h5{
+    text-align: center;
+}
