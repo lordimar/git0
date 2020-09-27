@@ -50,6 +50,9 @@ table.text  {
             text-align: left;
             font-size: 20px;
         }
+        select{
+            font-size: 25px;
+        }
         .thumb img {
             border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
             padding: 15px; /* Расстояние от картинки до рамки */
@@ -79,3 +82,9 @@ table.text  {
         a{
              color:#000000; text-decoration:none;
             }
+
+            select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;    
+             }

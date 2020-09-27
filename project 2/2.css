@@ -1,28 +1,36 @@
 body {
   text-align: center;
   color: rgb(255, 255, 255);
-  /* background-color: rgb(12, 12, 12); */
-  background-image: url("https://cdn.wallpapersafari.com/68/91/5zHLtX.png");
+  background-image: url("https://cdn.shopify.com/s/files/1/2603/2528/products/Montegrappa-LordOfTheRings-15_1500x.jpg?v=1573482242");
   background-size: 100% 110%;
   margin: auto;
   font-size: 130%;
 
 }
 #title {
-  -webkit-text-stroke: 2px rgb(26, 25, 25);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 span {
   display: inline;
-  background-color:#fffffffb;
+  background-color:#000000fb;
   box-shadow: -5px 0 0 #ffffff, 5px 0 0#ffffff;
   padding: 0;
   color: #000000;
 }
 h3 {
-  -webkit-text-stroke: 1px rgb(7, 7, 7);
+  -webkit-text-stroke: 1px rgb(248, 248, 248);
+  font-size: 145%;
+  color: #000000;
+}
+#description{
+  color: rgb(255, 255, 255);
   font-size: 140%;
-  color: #fcfcfc;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+label{
+  font-size: 115%;
 }
 /* .dropdown {
     position: relative;
