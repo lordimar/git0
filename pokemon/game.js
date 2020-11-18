@@ -19,16 +19,16 @@ const refery = {
 
 const player_1 = {
     name: 'Pikachu',
-    max_health: 100,
-    current_health: 100,
+    max_health: 300,
+    current_health: 300,
     health: document.getElementById('health-character'),
     progress_bar: document.getElementById('progressbar-character')
 }
 
 const player_2 = {
     name: 'Charmander',
-    max_health: 200,
-    current_health: 200,
+    max_health: 400,
+    current_health: 400,
     health: document.getElementById('health-enemy'),
     progress_bar: document.getElementById('progressbar-enemy')
 }
@@ -42,11 +42,11 @@ refery1_click_button.addEventListener('click', () => {
     
 
 player_1_click_button.addEventListener('click', () => {
-    changeScore(random(15), player_1)
+    changeScore(random(40), player_2)
 })
 
 player_2_click_button.addEventListener('click', () => {
-    changeScore(random(15), player_2)
+    changeScore(random(50), player_1)
 })
 
 const init = () => {
@@ -81,8 +81,8 @@ const changeScore = (count, person) => {
         if (person.name == 'Pikachu' ) pika= 'Лузер', Charma =  'Переможець'   ;
         else pika= 'Переможець', Charma = 'Лузер';
         
-        refery1.winner_name1.innerHTML = pika;
-        refery.winner_name.innerHTML = Charma ;
+        refery1.winner_name1.innerHTML =Charma;
+        refery.winner_name.innerHTML = pika ;
         
       
         player_1_click_button.setAttribute("disabled", true);
