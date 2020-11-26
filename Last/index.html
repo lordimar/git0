@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="code.js" type="text/javascript"></script>
+  <link href="styles.css" rel="stylesheet">
+  </link>
+  <title>Контроль працівників</title>
+</head>
+
+<body class="flexedd">
+  <section class="top flexed">
+    <div class="list flexed">
+    </div>
+    <div id="card" class="flexed">
+      <img id="employeeImg" width=450 />
+      <div style="display: grid;">
+        <table>
+          <tr class="p">
+            <td>ПІБ</td>
+            <td id="employeeName"></td>
+          </tr>
+          <tr>
+            <td>Посада</td>
+            <td id="employeePost"></td>
+          </tr>
+            <tr>
+              
+            <td>емейл</td>
+            <td id="employeeEmail"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section class="bottom   flexed">
+    <div id="add" class="flexed  ad">+</div>
+    
+  </section>
+  <div id="overflow" class="flexed">
+    <div id="overflowDark"></div>
+    <div class="in-overflow">
+      <h2 id="title"></h2>
+      <form id="employeeData" class="flexed">
+        <div class="photo">
+          <label>
+            <input type="file" id="photoInput" name="photo" />
+            <img id="photo" width="200" src="images/portrait.png" title="Вибрати фото" />
+          </label>
+        </div>
+        <div class="inputs flexed" style="flex-direction: column;">
+          <input type="text" id="name" name="name" autocomplete="off" placeholder="Прізвище Ім'я По-батькові" />
+          <input type="text" id="post" name="post" autocomplete="off" placeholder="Посада" />
+            <input id="email" type="email" name="email" placeholder="Емейл" required /> 
+          
+          <button id="submit"></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

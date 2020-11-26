@@ -1,0 +1,177 @@
+.flexed {
+  display: flex;
+  justify-content:center;
+  align-items: center ;
+}
+.flexe {
+  display: flex;
+  justify-content:  top;
+  align-items: center ;
+}
+
+.flexedd {
+  display: flex;
+  justify-content:center;
+  align-items: left ;
+}
+
+
+body {
+  flex-direction: column;
+  width: 100%; height: 100vh;
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(168, 203, 255);
+}
+
+section.top {
+  width: 50%;
+  height: 100%;
+  
+}
+section.top .list {
+  height: 100%; width: 25%;
+  background: #83b9f7;
+  flex-direction: column;
+  justify-content: start;
+}
+section.top .list .employee {
+  justify-content: space-between;
+  font: 700 1.2em Arial;
+  width: 80%;
+  padding: 4px 10px;
+  margin: 6px 0px;
+  background:#e4f0ff;
+  cursor: pointer;
+}
+section.top .list .employee span {
+  pointer-events: none;
+}
+section.top .list .employee:first-child {
+  margin-top: 20px;
+}
+section.top .list .employee.visible {
+  background:#e4f0ff;
+  color: black;
+}
+section.top .list .employee .option {
+  font-size: 1.2em;
+  visibility: hidden;
+  position: relative;
+}
+section.top .list .employee .option:before {
+  content: "";
+  position: absolute;
+  width: 30px; height: 30px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.top .list .employee .option:hover:before {
+  background: rgba(255,255,255,0.2);
+}
+section.top .list .employee .edit {
+  margin: 0px 10px;
+}
+section.top .list .employee:hover .option {
+  visibility: visible;
+}
+section.top #card {
+  height: 100%; width: 75%;
+  justify-content: start;
+  font: 30px Arial;
+  visibility: hidden;
+}
+section.top #card.visible {
+  visibility: visible;
+}
+section.top #card #employeeImg {
+  margin: 0px 30px;
+}
+section.top #card .p {
+  background:#509fff;
+}
+section.top #card td {
+  padding: 6px 18px;
+}
+
+section.bottom {
+  width: 10%;
+  height: 103%;
+  background: #6eafff;
+  margin-left: 90%;
+  margin-top: -45%;
+  
+}
+section.bottom .ad {
+  width: 95%; height: 97%;
+  border-radius: 2%;
+  background: #3c97ff;
+  color: rgb(2, 2, 2);
+  font: 900 7em Arial;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px -6px rgba(0,0,0,0.75);
+
+}
+section.bottom .ad:active {
+  transform: scale(0.9);
+}
+
+
+#overflow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100vh;
+  display: none;
+  
+}
+#overflow.visible {
+  display: flex;
+}
+#overflow #overflowDark {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 0;
+} 
+ #overflow .in-overflow {
+  padding: 40px;
+  background: #7c9fff;
+  z-index: 1;
+  border-radius: 16px;
+} 
+
+ #overflow .inputs input {
+  margin: 6px 0px;
+  border: none;
+  padding: 6px 18px;
+  font-size: 1.2em;
+  width: 320px;
+} 
+#overflow .inputs .small input {
+  width: 120px;
+}
+
+#overflow #photoInput {
+  width: 0.1px; height: 0.1px;
+  opacity: 0;
+}
+#overflow #photo {
+  margin-right: 30px;
+}
+
+#overflow #submit {
+  padding: 4px 14px;
+  font-size: 1.2em;
+  border: none;
+  background:#509fff;
+  color: #e4f0ff;
+  margin-top: 6px;
+  border-radius: 666px;
+}
+
+#overflow h2 {
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+}
